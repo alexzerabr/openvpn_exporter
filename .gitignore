@@ -1,3 +1,27 @@
+# Binários compilados (Go)
 openvpn_exporter
-.idea
-dist
+release/
+*.exe
+*.out
+*.tar.gz
+*.zip
+
+# Diretórios temporários
+*.log
+*.tmp
+*.swp
+
+# Go build cache
+*.test
+*.coverprofile
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+

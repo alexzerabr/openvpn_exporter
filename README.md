@@ -134,6 +134,28 @@ Reinicie o Prometheus após editar.
 
 ---
 
+## 📦 Download
+
+Você pode baixar os binários prontos na seção [Releases](https://github.com/alexzerabr/openvpn_exporter/releases).
+
+### Plataformas suportadas
+
+| Plataforma         | Arquivo                                  |
+|--------------------|-------------------------------------------|
+| Linux (amd64)      | `openvpn_exporter_linux_amd64.tar.gz`    |
+| Linux (ARMv7)      | `openvpn_exporter_rpi_armv7.tar.gz`      |
+| Linux (ARM64)      | `openvpn_exporter_linux_arm64.tar.gz`    |
+| Windows (amd64)    | `openvpn_exporter_windows_amd64.zip`     |
+| macOS (amd64)      | `openvpn_exporter_darwin_amd64.tar.gz`   |
+| macOS (ARM64)      | `openvpn_exporter_darwin_arm64.tar.gz`   |
+| FreeBSD (amd64)    | `openvpn_exporter_freebsd_amd64.tar.gz`  |
+
+### Executando o Exporter
+
+```bash
+./openvpn_exporter --web.listen-address=":9176" --openvpn.status_paths="/etc/openvpn/openvpn-status.log"
+
+
 ## 📌 Observações finais
 
 - Projeto útil mesmo após ter sido arquivado
